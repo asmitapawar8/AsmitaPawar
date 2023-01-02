@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><center>IACSD Manufacturing Pvt.Ltd.</center></h1>
+    <p style="color: brown;font-style: italic; size: 15 px;"> Always happy to serve the valuable customers like you!!</p>
+    <fieldset>
+        <legend align="left">Let us know your requirement!!</legend>
+        <form action="ordersummary" method="get">
+            <table>
+                <tr>
+                    <td>
+                        <label for="uname">Name: </label> 
+                    </td>
+                    <td>
+                        <input type="text" id="uname" name="uname">
+                    </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <label for="pros">Select Products: </label>
+                    </td>
+                    <td>
+                    <input type="checkbox" id="notebook" name="notebook"><label for="notebook">Notebook</label>
+                    <input type="checkbox" id="pen" name="pen"><label for="pen">Pen</label>
+                    <input type="checkbox" id="eraser" name="eraser"><label for="Eraser">Eraser</label>
+                    <input type="checkbox" id="scale" name="scale"><label for="scale">Notebook</label>
+                    <input type="checkbox" id="pouch" name="pouch"><label for="pouch">Pouch</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="qty">Required quantity of each item: </label>
+                    </td>
+                    <td>
+                        <input type="number" id="qty" name="qty">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="loc">Delivery Location: </label>
+                    </td>
+                    <td>
+                        <select id="loc" name="loc">
+                            <option  value="Select your city">Select city</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Thane">Thane</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Noida">Noida</option>
+                            <option value="Bangalore">Bangalore</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="del">Delivery Period:</label>
+                    </td>
+                    <td>
+                        <input type="date" id="del">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" id="btn" value="Confirm Order" formaction="ordersummary">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+                         
+</body>
+</html>
